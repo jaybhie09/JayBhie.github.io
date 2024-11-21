@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<!-- FontAwesome 5 Free CDN -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+
+
+ 
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+
+      <!-- Toggler Button (Hamburger Icon) -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#one">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#two">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#three">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#four">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+      <div id="one" class="default first item"> 
+        <div class="wan">
+            <h2> I am Jay Bhie Bite</h2>
+        </div>
+        
+        <div class="photo"><img src="pfp.jpg"></div>
+    </div>
+      <div id="two" class="item"><h2>About Me:</h2>
+        <p>A currently student in Technological Institute of the Philipines taking a Bachelor of Science in Information Technology.<br> 
+          She excels in dynamic environments, seamlessly adjusting to new challenges while maintaining strong, empathetic relationships with peers and colleagues.</p></div>
+     
+        <div id="three" class="item"><h2>PROJECTS</h2>
+        <div class="card" id="card1" style="width: 18rem;">
+            <img class="card-img-top" src="img.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Universe-City</h5>
+              <p class="card-text">A website that will allow the user to browse different university around Manila. </p>
+              <a href="https://universeeecity.wixsite.com/universecity" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+          <div class="card" id="card2" style="width: 18rem;">
+            <img class="card-img-top" src="jejemon.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">JeCole's Bakery</h5>
+              <p class="card-text">An e-commerce website that allow the user to browse and buy different paris pastries in a very affordable price. </p>
+              <a href="https://drive.google.com/drive/folders/1qOwOTAPqxEK1DCEH1ma-rof00ABhHJ_n?usp=sharing" class="btn btn-primary">View More</a>
+            </div>
+          </div>
+        
+    </div>
+    <div id="four" class="item">
+      <h2>CONTACT</h2>
+      <form id="form" onsubmit="return validateForm()">
+          <a>Name: <input type="text" name="name" id="name" required></a><br><br>
+          <a>Email: <input type="email" name="email" id="email" required></a><br><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" type="text" name="message" required></textarea><br><br>
+          <button id="button" type="submit">Submit</button>
+      </form>
+  </div>
+  
+     
+
+
+    <footer>
+        <div class="footer">
+            <div class="heading">
+            <h2>JBBT</h2>
+          </div>
+          <div class="content">
+           
+            <div class="social-media">
+              <h4>Social</h4>
+              <p>  <a href="https://www.linkedin.com/in/jay-bhie-bite-0462a1339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" ><i class="fab fa-linkedin"></i> Linkedin</a  > </p>
+              <p> <a href="https://www.facebook.com/bite.jaybhiebendal" ><i class="fab fa-facebook"></i> Facebook</a >  </p>
+              <p> <a href="https://www.instagram.com/jbbite/profilecard/?igsh=MTJzdm1xYnBkb3RxZw==" ><i class="fab fa-instagram"></i> Instagram</a > </p>
+              <p> <a href="https://t.me/j4ybbhie?fbclid=IwY2xjawGn2zVleHRuA2FlbQIxMAABHaS4aBmUgenlbPZxcs6xcNvoEjBW4bMt_c6pIOC-BryGLjPJzfW-Of5OhA_aem_rml28OTzECv_MppBXk6_Hg" ><i class="fab fa-telegram"></i>  Telegram</a > </p>
+            </div>
+            <div class="links">
+              <h4>Quick links</h4>
+              <p><a href="#one">Home</a></p>
+              <p><a href="#two">About</a></p>
+              <p><a href="#three">Projects</a></p>
+              <p><a href="#four">Contact</a></p>
+            </div>
+          </div>
+          <hr />
+        © 2024, Jay Bhie Bite's Portfolio.
+        </div>
+        
+    </footer>
+
+      
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" >    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
